@@ -9,6 +9,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: var(--project-fntfamily);
 }
 
 .section1{
@@ -42,7 +43,7 @@ nav{
     justify-content: space-between;
 }
 
-ul{
+nav ul{
     display: flex;
     list-style: none;
     justify-content: space-between;
@@ -111,7 +112,7 @@ ul{
 .section2{
     padding-top: 20%;
     background-color: #FAFAFA;
-    height: 1100px;
+    height: 1080px;
     font-family: var(--project-fntfamily);
     color: #000;
     font-size: var(--project-fntsize);
@@ -163,13 +164,11 @@ ul{
     line-height: 30px;
     word-spacing: 1px;
 }
-.section3{
-    height: 3000px;
-}
 .experience{
     width: 100%;
     font-family: var(--project-fntfamily);
     position: relative;
+    margin-bottom: 5%;
 }
 .experience p{
     font-size: 600%;
@@ -181,7 +180,6 @@ ul{
 }
 .exp_detail{
     display: flex;
-    padding-bottom: 5%;
 }
 .exp_detail img{
     width: 25%;
@@ -190,8 +188,134 @@ ul{
 .section3{
     padding-top: 20%;
     background-color: #FFFFFF;
-    height: 1300px;
+    height: 2900px;
     font-family: var(--project-fntfamily);
     color: #000;
     font-size: var(--project-fntsize);
 }
+.wall{
+    margin-bottom: 10%;
+    padding: 4%;
+}
+.wall center{
+    margin: 50px;
+}
+.headers{
+    border-left: 5px solid #000000;
+    padding-left: 10px;
+}
+.contents{
+    border-left: 1px solid #F0F0F0;
+    padding: 10px;
+    line-height: 200%;
+    padding-bottom: 2%;
+}
+.inner{
+    display: flex;
+    border-radius: 5px;
+}
+.headers .inner{
+    background-color: #f8f8f8;
+
+}
+.speaker{
+    margin: 5px;
+    width: 30%;
+}
+.details{
+    margin: 5px;
+    width: 70%;
+}
+.image2{
+    margin-left: 15px;
+}
+.section4{
+    padding-top: 20%;
+    height: 2000px;
+    background-color: #FAFAFA;
+}
+.faq_slides{
+    background-color: #FFFFFF;
+    border-radius: 16px;
+    padding: 2%;   
+    display: flex;
+    margin: 3%;
+}
+.question{
+    width: 90%;
+}
+.course_fee{
+    display: flex;
+    border-bottom: 2px solid #FBFBFB;
+    padding-bottom: 4%;
+}
+.left_fee{
+    width: 60%;
+}
+.course_fee li{
+    list-style-position: inside;
+    list-style-image: url(images/bullet_check_green.png);
+    margin: 4%;
+}
+.course_fee p{
+    font-weight: bolder;
+}
+.pay{
+    background-color: #000;
+    width: 40%;
+    border-radius: 15px;
+    color: #fff;
+    line-height: 200%;
+    padding: 2%;
+    margin-top: -2%;
+}
+.refund{
+    color: #CECECE;
+}
+.pay button{
+    margin-top: 4%;
+}
+
+
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+  }
+  
+  /* * {
+    box-sizing: border-box;
+  } */
+  
+  .responsive {
+    padding: 0 15px;
+    float: left;
+    width: 20%;
+  }
+  
+  @media only screen and (max-width: 700px) {
+    .responsive {
+      width: 49.99999%;
+      margin: 6px 0;
+    }
+  }
+  
+  @media only screen and (max-width: 500px) {
+    .responsive {
+      width: 100%;
+    }
+  }
+  
+  .clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
