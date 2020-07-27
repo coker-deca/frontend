@@ -327,9 +327,6 @@ nav ul{
 }
 
 @media (max-width: 500px){
-    .speaker{
-        
-    }
     .details{
         display: block;
         max-width: 100%;
@@ -624,6 +621,8 @@ nav ul{
         /* width: 100%; */
     }
 }
+
+
 
   div.gallery:hover {
     border: 1px solid #777;
